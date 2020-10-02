@@ -1,0 +1,35 @@
+19 Aug 2019
+
+This is my attempt to implement a basic linux shell in C
+This project is heavily inspired by Stephen Brennan's project located at 
+https://brennan.io/2015/01/16/write-a-shell-in-c/
+
+Lets see how far I can go
+
+
+16 Oct 2019
+
+The current implementation does the following
+
+Enters an infinite loop and reads one command at a time
+command and arguments should be space separated.
+Forks a new child prcess for the command.
+A few shell built ins are available. namely cd, exit and help
+
+
+
+Build instructions
+The project comes with a Makefile. 
+
+make
+builds the project in the current directory.
+
+Run the shell
+./vshell
+Enter help to get an onscreen help.
+
+The shell won't run any command as superuser because it thinks sudo is an order.
+Use please instead of sudo to request.
+
+
+

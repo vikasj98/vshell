@@ -1,0 +1,8 @@
+#The executable file
+vshell
+
+#Intermediate object files
+*.o
+
+
+
